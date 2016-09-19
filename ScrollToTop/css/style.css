@@ -1,14 +1,24 @@
-body{
-background: #f2f2f2;
-
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.cd-top.cd-is-visible {
-  /* the button becomes visible */
-  visibility: visible;
-  opacity: 1;
+body {
+  font-size: 100%;
+  font-family: "Bitter", sans-serif;
+  color: #000;
+  background-color: #00FFFF;
 }
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
+
+#grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(cyan, pink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(cyan, pink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(cyan, pink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(cyan, pink); /* Standard syntax */
 }
