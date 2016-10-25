@@ -1,0 +1,53 @@
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1;
+  color: #fff;
+  background: #9C27B0; /* For browsers that do not support gradients */
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+	padding: 2em 0;
+	line-height: 2;
+}
+
+.main-nav{
+float: right;
+margin-right: 5%;
+position: static;
+width: auto;
+}
+
+.main-nav.ul{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+.main-nav a {
+  display: block;
+  float: right;
+  height: 50px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+/*.main-nav li:nth-last-child(2) {
+  margin-left: 2em;
+}*/
+.main-nav a {
+  display: inline-block;
+  height: auto;
+  line-height: normal;
+  background: transparent;
+}
+header{
+background: #E91E63;
+}
